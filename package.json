@@ -1,0 +1,34 @@
+{
+  "name": "tagged-error",
+  "version": "0.2.0",
+  "description": "TypeScript library for creating tagged error classes with runtime type checking. Inspired by Effect's Data.TaggedError.",
+  "author": "Renato Lacerda <renato.ac.lacerda@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ralacerda/tagged-error.git"
+  },
+  "homepage": "https://github.com/ralacerda/tagged-error#readme",
+  "bugs": {
+    "url": "https://github.com/ralacerda/tagged-error/issues"
+  },
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "prepublishOnly": "tsdown"
+  },
+  "devDependencies": {
+    "tsdown": "^0.12.9"
+  }
+}
