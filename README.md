@@ -1,4 +1,6 @@
-# tagged-error
+# Tagged Error
+
+![NPM Version](https://img.shields.io/npm/v/tagged-error)
 
 A TypeScript library for creating tagged error classes with runtime type checking. Inspired by Effect's `Data.TaggedError`, this library allows you to create error classes on the fly with proper typing and runtime discrimination.
 
